@@ -1,6 +1,5 @@
 {
     "pages": [
-        "pages/swiperDemo/swiperDemo",
         "pages/plate-input/plate-input",
         "pages/logs/logs"
     ],
@@ -9,18 +8,4 @@
         "navigationBarBackgroundColor": "#BF1733",
         "navigationBarTextStyle": "white"
     },
-    "tabBar": {
-        "selectedColor": "#BF1733",
-        "color": "#666",
-        "list": [
-            {
-                "pagePath": "pages/plate-input/plate-input",
-                "text": "车牌"
-            },
-            {
-                "pagePath": "pages/swiperDemo/swiperDemo",
-                "text": "轮播"
-            }
-        ]
-    }
 }
