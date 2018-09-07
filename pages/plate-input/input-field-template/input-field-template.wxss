@@ -1,0 +1,28 @@
+.inputPlate-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.active, .newEnerge{
+    float: left;
+    width: 65rpx;
+    height: 80rpx;
+    text-align: center;
+    line-height: 80rpx;
+    margin-right: 10rpx;
+    align-self: center;
+    font-size: 40rpx;
+    color: #666;
+}
+
+.border-color{
+    border: 1px solid #ccc;
+}
+.active-border-color{
+    border: 1px solid #BF1733;
+}
+.dashed-border-color{
+    border: 1px dashed #ccc;
+}

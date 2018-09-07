@@ -1,0 +1,11 @@
+<import src="../input-field-template/input-field-template.wxml"/>
+
+<template name="inputBox">
+    <view class='box-container'>
+        <view class='plateTitle'>请输入车牌号</view>
+        <view class='input-field-container'>
+            <template is="inputField" data="{{...inputPlate}}"></template>
+        </view> 
+        <button class='submitBtn' catchtap='onSubmitBtnTap'>提交</button>
+    </view>
+</template>

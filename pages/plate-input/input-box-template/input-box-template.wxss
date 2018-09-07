@@ -1,0 +1,42 @@
+@import "../input-field-template/input-field-template.wxss";
+
+.box-container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 90%;
+    height: 400rpx;
+    margin: 0 auto;
+    background-color: #fff;
+    overflow: hidden;
+}
+.plateTitle{
+    width: 100%;
+    height: 70rpx;
+    background-color: #BF1733;
+    text-align: center;
+    line-height: 70rpx;
+    color: #fff;
+    font-size: 26rpx;
+}
+.input-field-container{
+    width: 100%;
+    height: 220rpx;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.submitBtn{
+    width: 80%;
+	height: 70rpx;
+	background-color: #BF1733;
+	border: none;
+	border-radius: 10rpx;
+	text-align: center;
+	line-height: 70rpx;
+	color: white;
+	font-size: 26rpx;
+	margin-left: 10%;
+}

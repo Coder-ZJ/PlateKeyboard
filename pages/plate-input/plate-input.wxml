@@ -1,0 +1,11 @@
+<import src="input-box-template/input-box-template.wxml" />
+<import src="plate-keyboard-template/plate-keyboard-template.wxml" />
+
+<view class='container'>
+    <view class='input-container'>
+        <template is="inputBox" data="{{inputPlate}}"></template>
+    </view>
+    <view class='keyboard-container' wx:if="{{isShowKeyboard}}">
+        <template is="plateKeyboard" data="{{...keyValue}}"></template>
+    </view>
+</view>

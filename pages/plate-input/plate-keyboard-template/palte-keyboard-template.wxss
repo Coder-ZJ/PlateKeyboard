@@ -1,0 +1,57 @@
+.plate-keyboard-container{
+    width: 100%;
+    background-color: #d0d5d9;
+}
+.close-keyboard{
+    background-color: #fff;
+    height: 30px;
+}
+.line{
+    background-color: #d0d5d9;
+    width: 100%;
+    height: 1px;
+}
+.close-btn{
+    color: #BF1733;
+    font-size: 15px;
+    line-height: 30px;
+    float: right;
+    margin-right: 15px;
+}
+.keyboard-number-panel, .keyboard-provience-panel
+{
+    padding-bottom: 10rpx;
+}
+.keyboard-panel{
+    width: 100%;
+    padding-top: 10rpx;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.key-panel{
+    width: 65rpx;
+    height: 90rpx;
+    border-radius: 10rpx;
+    text-align: center;
+    line-height: 90rpx;
+    float: left;
+    background-color: #fff;
+    color: #666;
+    font-size: 40rpx;
+}
+.deleteImg, .ABC{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 10rpx;
+    text-align: center;
+    line-height: 90rpx;
+    float: left;
+    background-color: #acb3bb;
+}
+.deleteImg image{
+    width: 55rpx;
+    height: 45rpx;
+    margin-top: 25rpx;
+}
