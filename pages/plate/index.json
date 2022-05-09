@@ -1,0 +1,6 @@
+{
+    "navigationBarTitleText": "车牌输入",
+    "usingComponents": {
+        "plateKeyboard": "../../components/plateKeyboard/index"
+    }
+}

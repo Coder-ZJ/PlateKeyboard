@@ -1,0 +1,76 @@
+.plate-number-container {
+	width: 100%;
+	background-color: rgb(225, 226, 229);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 9999;
+	transform: translateY(150%);
+	transition: all 0.4s ease;
+}
+
+.show .plate-number-container {
+	transform: translateY(0);
+}
+
+.bar-panel {
+	display: flex;
+	position: relative;
+	height: 70rpx;
+}
+
+.bar-panel .plate-number-text {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bar-panel .finish-btn {
+	position: absolute;
+	right: 25rpx;
+	top: 0;
+	color: var(--theme-color);
+	font-size: 35rpx;
+	line-height: 70rpx;
+	float: right;
+}
+
+.keyboard-panel {
+	display: flex;
+	justify-content: center;
+	padding: 10rpx 0;
+}
+
+.keyboard-panel .key,
+.keyboard-panel .delete-key {
+	margin: 0;
+	padding: 0;
+	margin-left: 10rpx;
+	width: 65rpx;
+	height: 90rpx;
+	text-align: center;
+	line-height: 90rpx;
+	background-color: #fff;
+	color: #666;
+	font-size: 45rpx;
+	border: none;
+}
+
+.keyboard-panel .delete-key {
+	width: 140rpx;
+	background-color: rgb(140, 142, 151);
+}
+
+.hover-key {
+	background-color: pink;
+}
+
+.keyboard-panel .key:nth-of-type(1) {
+	margin: 0;
+}
+
+.delete-image-icon {
+	width: 40rpx;
+	height: 30rpx;
+}

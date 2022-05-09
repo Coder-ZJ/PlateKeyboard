@@ -1,11 +1,13 @@
-.inputPlate-container{
+.inputPlate-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
 }
-.active, .newEnerge{
+
+.active,
+.newEnerge {
     float: left;
     width: 65rpx;
     height: 80rpx;
@@ -17,12 +19,14 @@
     color: #666;
 }
 
-.border-color{
+.border-color {
     border: 1px solid #ccc;
 }
-.active-border-color{
+
+.active-border-color {
     border: 1px solid #BF1733;
 }
-.dashed-border-color{
+
+.dashed-border-color {
     border: 1px dashed #ccc;
 }

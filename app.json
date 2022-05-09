@@ -1,11 +1,11 @@
 {
-    "pages": [
-        "pages/plate-input/plate-input",
-        "pages/logs/logs"
-    ],
-    "window": {
-        "backgroundTextStyle": "light",
-        "navigationBarBackgroundColor": "#BF1733",
-        "navigationBarTextStyle": "white"
-    }
+	"pages": [
+		"pages/plate/index"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#BF1733",
+		"navigationBarTextStyle": "white"
+	},
+	"sitemapLocation": "sitemap.json"
 }

@@ -1,0 +1,9 @@
+<import src="../../template/input-field-template/input-field-template.wxml"></import>
+
+<view class='container'>
+    <view class='input-container'>
+        <template is="inputField" data="{{plate}}"></template>
+    </view>
+    <plateKeyboard showPlateKeyboard="{{isShowKeyboard}}" plateNumber="{{plateStr}}"
+        bind:plateKeyboardValue="onPlateKeyboardValue"></plateKeyboard>
+</view>

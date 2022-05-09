@@ -1,5 +1,5 @@
-# PlateKeyboard
+# plateKeyboard
 ##微信小程序车牌号输入键盘、输入框
 
-因项目需求，需定制车牌输入框、车牌输出键盘。所以作者自己动作写了一个。因作者也是第一次接触微信小程序，对前端也是个了解。都是被公司逼的。不过小程序上手还是比较简单的。共同进步。效果图
-![](keyboard1.jpg) ![](keyboard2.jpg)
+因项目需求，需定制车牌输入框、车牌输入键盘。将车牌输入键盘整合成一个组件，车牌输入框整合成一个template，在需要的地方引用即可。效果如下图
+![](plateKeyboard1.png) ![](plateKeyboard2.png) ![](plateKeyboard2.png)
