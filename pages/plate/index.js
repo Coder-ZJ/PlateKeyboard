@@ -3,11 +3,10 @@ Page({
         isShowKeyboard: true, //是否显示键盘,默认显示
         plate: [],
     },
-    onLoad: function (options) {
+    onLoad(options) {
 
     },
-    onPlateKeyboardValue: function (e) {
-        console.log(e.detail)
+    onPlateKeyboardValueChange(e) {
         this.setData({
             plate: e.detail,
         })

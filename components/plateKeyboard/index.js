@@ -4,7 +4,7 @@ const app = getApp();
 Component({
 	properties: {
 		plate: Array, //车牌
-		showPlateKeyboard: Boolean
+		showPlateKeyboard: Boolean, //是展示键盘
 	},
 
 	data: {
@@ -20,7 +20,6 @@ Component({
 	},
 
 	methods: {
-		
 		// 完成
 		onClickFinish() {
 			this.setData({
@@ -36,7 +35,7 @@ Component({
 			this.setData({
 				plate: this.data.plate
 			})
-			this.triggerEvent('plateKeyboardValue', this.data.plate.join(''));
+			this.triggerEvent('plateKeyboardChange', this.data.plate);
 		},
 		// 键盘按键
 		onClickKey(e) {
@@ -48,7 +47,7 @@ Component({
 			this.setData({
 				plate: this.data.plate
 			})
-			this.triggerEvent('plateKeyboardValue', this.data.plate);
+			this.triggerEvent('plateKeyboardChange', this.data.plate);
 		}
 	}
 })
